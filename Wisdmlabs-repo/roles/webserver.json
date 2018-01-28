@@ -1,0 +1,13 @@
+{
+    "name": "webserver",
+    "description": "This role is for Web Server which will install nginx and php",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[assesment::install_nginx]", "recipe[assesment::install_php]"
+    ]
+}

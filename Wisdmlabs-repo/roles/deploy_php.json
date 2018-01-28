@@ -1,0 +1,13 @@
+{
+    "name": "deploy_php",
+    "description": "This role is for deploying php file into desired location (/var/www/html)",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[assesment::deploy_php]"
+    ]
+}
